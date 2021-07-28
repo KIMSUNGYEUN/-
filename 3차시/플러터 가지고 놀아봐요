@@ -1,0 +1,11 @@
+위젯(Widget) : 플러터를 통해 만든 앱에 보이는 모든 구성요소
+ex) MaterialApp, MyHomePage 등 수많은 것들이 모두 위젯
+
+MaterialApp 위젯은 Material Design을 사용할 수 있게 하는 위젯
+가장 기본이 되는 위젯이며, title, theme, home 등의 속성을 가지고 있음
+
+Scaffold 는 많은 기본적인 기능을 제공해주는 위젯
+appBar. body, bottomNavigationBar, floatingActionButton 등 수많은 속성들로 화면을 쉽게 만들 수 있음
+보통 MaterialApp의 home 속성에 넣음
+
+Container는 구성요소 하나하나의 세세한 디자인을 할 수 있는 위젯
