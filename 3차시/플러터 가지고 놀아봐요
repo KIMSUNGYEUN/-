@@ -9,3 +9,19 @@ appBar. body, bottomNavigationBar, floatingActionButton 등 수많은 속성들�
 보통 MaterialApp의 home 속성에 넣음
 
 Container는 구성요소 하나하나의 세세한 디자인을 할 수 있는 위젯
+
+TextStyle 은 하나의 스타일을 갖는 텍스트를 넣는 위젯
+
+Row는 옆으로 늘어서 있는 열, 줄을 뜻함
+Row 위젯은 가로로 여러 위젯을 줄세우는 위젯
+
+mainAxisAlignment와 crossAxisAlignment 속성으로 Row 에 속해있는 위젯을 정렬
+
+Column은 기둥을 뜻함
+세로로 여러 위젯을 줄세우는 위젯
+mainAxisAlignment와 crossAxisAlignment 속성으로 Column에 속해있는 위젯 정렬
+
+ListView 위젯은 스크롤 가능한 리스트를 만들어줌 스크롤이 필요한 만큼 많은 위젯을 담았을 때 사용
+
+Icon : 아이콘을 만드는 위젯
+Icons.[아이콘 이름]을 넣어 무슨 아이콘을 보여줄지 결정
